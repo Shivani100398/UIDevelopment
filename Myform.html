@@ -1,0 +1,36 @@
+<html>
+<link rel="stylesheet" href="Myform.css">
+
+<body>
+    <form>
+        <input placeholder="First Name">
+        <input placeholder="Second Name"><br><br>
+        <div onclick="action2()">
+            <input type="radio"  name="type">Domestic
+            <input type='radio'  name="type">International
+        </div>
+        <div onclick="action2()" onclick="doSomething()">
+            <h2><label>SKILLS</label></h2>
+            <input type="checkbox">JAVAScript
+            <input type="checkbox">BootStrap
+            <input type="checkbox">CSS
+        </div>
+        <br>
+        <label>Date of Birth</label>
+        <input type="date">
+        <br>
+
+        <select multiple>
+            <option>Option1</option>
+            <option>Option2</option>
+            <option>Option3</option>
+            <option>Option4</option>
+        </select>
+        <br>
+
+    </form>
+    <button onclick="doSomething()">Save</button>
+</body>
+<script src="myform.js"></script>
+
+</html>
